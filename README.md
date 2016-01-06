@@ -109,10 +109,10 @@ Of course you want to get a list of notifications per user. Here are some exampl
     $this->Notifier->countNotifications(2);
     
     // getting a number of all unread notifications
-    $this->Notifier->countNotificationList(2, true);
+    $this->Notifier->countNotifications(2, true);
 
     // getting a number of all read notifications
-    $this->Notifier->countNotificationList(2, false);
+    $this->Notifier->countNotifications(2, false);
 
 You can do something like this to use the notification-list in your view:
 
